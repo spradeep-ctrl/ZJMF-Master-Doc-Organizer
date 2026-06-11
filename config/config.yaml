@@ -1,0 +1,16 @@
+openai_api_key=your_key_here
+# or use local LLM
+local_model=false
+model_name=gpt-4
+
+# Web search configuration
+web_search_enabled=true
+search_api_key=your_key_here
+
+# Document processing
+pdf_parser_type=pypdf2
+max_tokens_per_document=4000
+
+# Funding database
+min_grant_amount=1000
+max_funding_opportunities=50
